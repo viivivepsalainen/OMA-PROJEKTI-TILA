@@ -17,6 +17,8 @@ Ensimmäisenä Firefoxin lataus itselleni. ELi asensin sitä itselleni tuolla:
 
 ```sudo apt install firefox```
 
+Loin aluksi skriptin (joka kertoi että olet lataamassa Firefoxia ja lataaa sen), jonka testasin että toimii ja lisäsin minionille (state.apply). Sitten heräsin siihen, etten saa ubtuntu serverillä auki sitä nettisivua, joten päätin ladata ubuntu desktopin asioiden helpottamiseksi. Jatkuu huomenna 8.12.
+
 
 
 
