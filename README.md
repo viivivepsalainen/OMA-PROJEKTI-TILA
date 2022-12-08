@@ -7,7 +7,11 @@ Käytin Oracle VM:n kautta Linuxin ubuntupalvelinta, jotta saan sinne luotua her
 
 Tarkoitus asentaa vanhemman ihmisen arjen helpotusta varten hänelle tarpeellisia sovelluksia saltin avulla. Tässä tapauksessa vanhempi ihminen tahtoo kuunnella Spotifytä, katsella Netflixiä sekä selailla nettiä Firefoxin kautta. Eli nuo kolme asennetaan.
 
-10.0.2.15
+Ensin latasin itselleni kokonaan uuden Ubuntu -palvelimen, jotta saan aloitettua puhtaalla pöydällä. Latasin myöskin palvelimelle Saltstackin, jotta moduulin teko onnistuu. Tarkastin vielä, että minion oli hereillä ja toimii.
 
-Ensin latasin itselleni nämä
+<img width="256" alt="image" src="https://user-images.githubusercontent.com/118457367/206497242-609821e4-4c47-4f44-86d5-054e049445a8.png">
+
+Ensimmäisenä latailin tuon Spotifyn, Netflixin ja Firefoxin masterille, josta tarkoitus lähteä niitä asentelemaan minionille. 
+
+
 
