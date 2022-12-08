@@ -5,7 +5,7 @@ Käytössä Asus Zenbook Windows 11 käyttöjärjestelmällä, AMD Ryzen 7 prose
 
 Käytin Oracle VM:n kautta Linuxin ubuntupalvelinta, jotta saan sinne luotua herran ja orjan ja testata onnistuuko. 
 
-Tarkoitus asentaa vanhemman ihmisen arjen helpotusta varten hänelle tarpeellisia sovelluksia saltin avulla. Tässä tapauksessa vanhempi ihminen tahtoo kuunnella Spotifytä, katsella Netflixiä sekä selailla nettiä Firefoxin kautta. Eli nuo kolme asennetaan.
+Tarkoitus asentaa vanhemman ihmisen arjen helpotusta varten hänelle tarpeellinen sovellus saltin avulla. Tässä tapauksessa vanhempi ihminen tahtoo katsella netflixiä, muttei osaa käyttää tietokonetta, joten luodaan komento, jolla tietokone lataa Firefoxin selaimen ja avaa tämän jälkeen Netflixin sivun. 
 
 Ensin latasin itselleni kokonaan uuden Ubuntu -palvelimen, jotta saan aloitettua puhtaalla pöydällä. Latasin myöskin palvelimelle Saltstackin, jotta moduulin teko onnistuu. Tarkastin vielä, että minion oli hereillä ja toimii.
 
@@ -16,6 +16,10 @@ Ensimmäisenä latailin tuon Spotifyn, Netflixin ja Firefoxin masterille, josta 
 Ensimmäisenä Firefoxin lataus itselleni. ELi asensin sitä itselleni tuolla:
 
 ```sudo apt install firefox```
+
+
+
+
 
 
 
