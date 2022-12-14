@@ -22,6 +22,11 @@ Latailin tosiaan tuota salt-minionia ja -masteria tuonne desktopille, jotta voin
 
 Muokkasin /etc/salt/minion nano -tiedostoon masterin tiedot sekä laitoin id minion1 ja käynnistelin minionia uudelleen, jonka jälkeen vielä hyväksyin minion1 avaimen masterille. 
 
+Tämän jälkeen alkoi skriptin luominen ensin itselleni, jotta pääsen testaamaan toimiiko se. Skripti näyttikin siis tältä:
+
+![moduuliscript](https://user-images.githubusercontent.com/118457367/207630810-9861abb7-63c3-4ac4-aee2-ce5925dd3439.jpg)
+
+Skriptiä ajaessa kaikki muu toimi normaalisti (teksti tuli ja Netflixin sivu avautui), mutta Firefoxin kohdalla tuli paljon virheilmoituksia: "Failed to load canberra-gtk-module" ja "missing chrome or resource url". Nämä sainkin selvitettyä, että johtuivat siitä, kun Firefoxissa on ns. built-in päivittäjä, joten sitä ei erikseen pysty päivitellä terminaalissa (https://www.reddit.com/r/Ubuntu/comments/wsnou2/missing_chrome_or_resource_url/ lähteenä tiedolle reddit, joka hieman kyseenalainen).
 
 
 
