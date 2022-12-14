@@ -26,7 +26,20 @@ Tämän jälkeen alkoi skriptin luominen ensin itselleni, jotta pääsen testaam
 
 ![moduuliscript](https://user-images.githubusercontent.com/118457367/207630810-9861abb7-63c3-4ac4-aee2-ce5925dd3439.jpg)
 
-Skriptiä ajaessa kaikki muu toimi normaalisti (teksti tuli ja Netflixin sivu avautui), mutta Firefoxin kohdalla tuli paljon virheilmoituksia: "Failed to load canberra-gtk-module" ja "missing chrome or resource url". Nämä sainkin selvitettyä, että johtuivat siitä, kun Firefoxissa on ns. built-in päivittäjä, joten sitä ei erikseen pysty päivitellä terminaalissa (https://www.reddit.com/r/Ubuntu/comments/wsnou2/missing_chrome_or_resource_url/ lähteenä tiedolle reddit, joka hieman kyseenalainen).
+Skriptiä ajaessa kaikki muu toimi normaalisti (teksti tuli ja Netflixin sivu avautui), mutta Firefoxin kohdalla tuli paljon virheilmoituksia: "Failed to load canberra-gtk-module" ja "missing chrome or resource url". Nämä sainkin selvitettyä, että johtuivat siitä, että Firefoxissa on sisäänrakennettu päivitysohjelma. Virheilmoitus oli kuitenkin hyvälaatuinen eikä ongelma. (https://www.reddit.com/r/Ubuntu/comments/wsnou2/missing_chrome_or_resource_url/).
+
+Kuitenkin halusin saada selville, onnistuuko firefoxin lataus varmasti, joten poistin sen desktopista komennolla:
+
+```sudo snap remove firefox```
+
+Tämän jälkeen skriptiä uudestaan kokeillessani, tuli ilmoitus että komento "script" tarvitsee firefoxin ladattuna valmiiksi, jotta komento voidaan ajaa, joten latasin firefoxin takaisin komennolla:
+
+```sudo snap install firefox```
+
+Tämän jälkeen saimme error: unable to contact snap store. Tämä vissiin johtui siitä, että snap store on alhaalla (https://status.snapcraft.io/).
+
+![down](https://user-images.githubusercontent.com/118457367/207634449-a5c4efab-a2e5-479a-a211-fb7e5df06ce8.jpg)
+
 
 
 
