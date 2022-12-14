@@ -110,3 +110,11 @@ Muuttelin hieman polkuja tiedostoihin ja kokeilen uudelleen, lopputuloksena toim
 
 ![toimii21](https://user-images.githubusercontent.com/118457367/207697087-f7820862-59ea-4c45-9a1a-be2aeeebba1f.jpg)
 
+
+Lähteet: 
+- https://support.mozilla.org/en-US/kb/install-firefox-linux
+- https://flatpak.org/setup/Ubuntu
+- https://status.snapcraft.io/
+- https://www.reddit.com/r/Ubuntu/comments/wsnou2/missing_chrome_or_resource_url/
+- https://terokarvinen.com/
+
