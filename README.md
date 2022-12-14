@@ -1,5 +1,17 @@
 # OMA-PROJEKTI-TILA
 
+Moduuli/tila on tehty Tero Karvisen Palvelinten hallinta -kurssille syksyllä 2022. 
+
+Käytössä Asus Zenbook Windows 11 käyttöjärjestelmällä, AMD Ryzen 7 prosessorilla ja 8Gt fyysistä muistia.
+
+Käytin Oracle VM:n kautta Linuxin ubuntupalvelinta sekä Ubuntu desktoppia testatakseni, että homma toimii.
+
+Tarkoitus asentaa vanhemman ihmisen arjen helpotusta varten hänelle tarpeellinen sovellus/nettisivu saltin avulla. Tässä tapauksessa vanhempi ihminen tahtoo katsella netflixiä, muttei osaa käyttää tietokonetta, joten luodaan komento, jolla tietokone lataa Firefoxin selaimen ja avaa tämän jälkeen Netflixin sivun.
+
+Alunperin tarkoitus oli ladata hänelle myöskin Spotify sekä Netflixin itse sovellus, mutta niissä tulikin suurempia ongelmia vastaan, kun spotifyn kaikki gpg -avaimet mitä löysin netistä olivat vanhentuneet. Netflixin kohdalla taas selvisi, että sillä ei ole ollenkaan appia Linuxille, vaan Netflixiä täytyy katsoa verkkoselaimen kautta.
+
+
+
 Aloitin tosiaan aluksi Firefoxin parissa. 
 
 Ensin latasin itselleni kokonaan uuden Ubuntu -palvelimen, jotta saan aloitettua puhtaalla pöydällä. Latasin myöskin palvelimelle Saltstackin, jotta moduulin teko onnistuu. Tarkastin vielä, että minion oli hereillä ja toimii.
