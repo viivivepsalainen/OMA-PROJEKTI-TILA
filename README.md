@@ -8,9 +8,7 @@ Käytin Oracle VM:n kautta Linuxin ubuntupalvelinta sekä Ubuntu desktoppia test
 
 Tarkoitus asentaa vanhemman ihmisen arjen helpotusta varten hänelle tarpeellinen sovellus/nettisivu saltin avulla. Tässä tapauksessa vanhempi ihminen tahtoo katsella netflixiä, muttei osaa käyttää tietokonetta, joten luodaan komento, jolla tietokone lataa Firefoxin selaimen ja avaa tämän jälkeen Netflixin sivun.
 
-Alunperin tarkoitus oli ladata hänelle myöskin Spotify sekä Netflixin itse sovellus, mutta niissä tulikin suurempia ongelmia vastaan, kun spotifyn kaikki gpg -avaimet mitä löysin netistä olivat vanhentuneet. Netflixin kohdalla taas selvisi, että sillä ei ole ollenkaan appia Linuxille, vaan Netflixiä täytyy katsoa verkkoselaimen kautta.
-
-
+Alunperin tarkoitus oli ladata hänelle myöskin Spotify sekä Netflixin itse sovellus, mutta niissä tulikin suurempia ongelmia vastaan, kun spotifyn kaikki gpg -avaimet mitä löysin netistä olivat vanhentuneet. Netflixin kohdalla taas selvisi, että sillä ei ole ollenkaan appia Linuxille, vaan Netflixiä täytyy katsoa verkkoselaimen kautta. **Loppujenlopuksi päädyin siis luomaan tilan, joka lataa firefoxin selaimen sekä konfiguroi siellä kotisivuksi netflixin.**
 
 Aloitin tosiaan aluksi Firefoxin parissa. 
 
