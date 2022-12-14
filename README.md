@@ -62,6 +62,12 @@ Sitten vain komennolla:
 
 latailin firefoxin, joka onnistui. (https://support.mozilla.org/en-US/kb/install-firefox-linux , https://flatpak.org/setup/Ubuntu) 
 
+Ja tämä Firefoxihan asentui ja avautui normaalisti, mutta meidän skriptille se ei käynyt, vaan vaati edelleen firefoxin lataamista snap storen avulla. Kokeiltiin vielä komennolla 
+
+```snap refresh```
+
+josko auttaisi, tämän jälkeen ```snap install firefox```, ja sehän auttoi, eli äskeinen flatpakin kanssa säätäminen oli täysin turhaa (joten poistin flatpakin lataaman firefoxin). 
+
 
 
 
