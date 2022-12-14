@@ -40,6 +40,27 @@ Tämän jälkeen saimme error: unable to contact snap store. Tämä vissiin joht
 
 ![down](https://user-images.githubusercontent.com/118457367/207634449-a5c4efab-a2e5-479a-a211-fb7e5df06ce8.jpg)
 
+Koska tuo snap-store oli alhaalla, piti firefox latailla takaisin muita teitä pitkin. Kokeilin ensin ladata mozillan omien sivujen kautta lisäämällä gpg -avaimen sekä kansion ubuntulleni, mutta kansiota lisätessä jotain meni pieleen (en tiedä johtuiko omasta hitaasta netistä), mutta kansion lisäys aikakatkaistiin automaattisesti. Kokeiltuani pari kertaa, päätin ladata firefoxin flatpakin avulla. 
+
+Flatpak oli itselleni ainakin uusi tuttavuus, mutta se on tosiaan ohjelmien asentamiseen ja hallintaan suunniteltu työkaluohjelmisto. 
+
+Ensin latasin ohjelmiston:
+
+```sudo apt install flatpak```
+
+jonka jälkeen latasin flatpakin laajennuksen, joka mahdollistaa ohjelmien lataamisen ilman komentoriviä:
+
+```sudo apt install gnome-software-plugin-flatpak```
+
+ja viimeseinä vielä lisäsin Flathub -kansion, josta ohjelmat voidaan ladata:
+
+```flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo```
+
+Sitten vain komennolla:
+
+```flatpak install flathub org.mozilla.firefox```
+
+latailin firefoxin, joka onnistui. (https://support.mozilla.org/en-US/kb/install-firefox-linux , https://flatpak.org/setup/Ubuntu) 
 
 
 
