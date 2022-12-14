@@ -96,9 +96,19 @@ Ensi töikseni menin muokkailemaan skriptiä, että nyt sivu ei avaudukaan uudel
 
 Fiksuna tyttönä tajusin kopioida konfigurointitiedoston samaan paikkaan (/usr/local/bin), jossa skripti myöskin on. Nyt luodaan vielä init.sls tiedosto. 
 
+Loin tosiaan tuon init.sls tiedoston:
 
+![init sls](https://user-images.githubusercontent.com/118457367/207692683-9b71760c-8c70-4193-a8c9-7a1b8bd89564.jpg)
 
+Testailin että minion hereillä, ekan state.applyn tulos failed:
 
+![failed](https://user-images.githubusercontent.com/118457367/207692794-8d00ba10-395b-4048-8bbf-8cedb8760a1c.jpg)
 
+Eli jos ymmärsin oikein, virheilmoituksen mukaan nuo tiedostojen sijainnit on vielä vähän hukassa, let's try again. 
 
+Sain ensimmäisen virheen eli itse skriptitiedoston siirtymään minionille, mutta tuo firefoxin konffaustiedosto jäi vielä punaiselle, virheenä tuli "parent directory not present", lets see. 
+
+Muuttelin hieman polkuja tiedostoihin ja kokeilen uudelleen, lopputuloksena toimii:
+
+![toimii21](https://user-images.githubusercontent.com/118457367/207697087-f7820862-59ea-4c45-9a1a-be2aeeebba1f.jpg)
 
