@@ -66,7 +66,21 @@ Ja tämä Firefoxihan asentui ja avautui normaalisti, mutta meidän skriptille s
 
 ```snap refresh```
 
-josko auttaisi, tämän jälkeen ```snap install firefox```, ja sehän auttoi, eli äskeinen flatpakin kanssa säätäminen oli täysin turhaa (joten poistin flatpakin lataaman firefoxin). 
+josko auttaisi, tämän jälkeen ```snap install firefox```, ja sehän auttoi, eli äskeinen flatpakin kanssa säätäminen oli täysin turhaa (joten poistin flatpakin lataaman firefoxin.)
+
+Tämän jälkeen päätin, että firefoxin lataaminen ja netflixin sivun avaaminen on vähän liian helppo homma, joten päätin konffata firefoxin asetuksia niin, että firefoxin kotisivu onkin netflixin sivu).
+
+Muokkasin ensimmäisenä firefoxiin kotisivuksi tuon netflixin sivun, jonka ajattelin auttavan asiaa. 
+
+Tämän jälkeen etsin ikuisuuden oikeaa tiedostoa, jonne muokata kotisivun tiedot (kokeilin esim. apturl.js tiedoston muokkausta), ja muokkailin ties mitä minne, kunnes vihdoin ja viimein tajusin etsiä tuolla ```find -printf "%T+ %p\n"|sort``` komennolla, josko löytäisin oikean tiedoston, jota minun pitää muokata. 
+
+Oikea tiedosto löytyi (toivottavasti) ja avautui, ja nyt lähden muokkailemaan sinne netflixin sivun tietoja. Huomasin, että tieto netflixin sivusta oli tietenkin päivittynyt sinne automaattisesti:
+
+![homepage](https://user-images.githubusercontent.com/118457367/207673410-2473f472-3b14-4306-9072-10a557608310.jpg)
+
+
+
+
 
 
 
