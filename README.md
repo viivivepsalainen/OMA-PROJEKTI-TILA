@@ -78,6 +78,11 @@ Oikea tiedosto löytyi (toivottavasti) ja avautui, ja nyt lähden muokkailemaan 
 
 ![homepage](https://user-images.githubusercontent.com/118457367/207673410-2473f472-3b14-4306-9072-10a557608310.jpg)
 
+Sitten alkoi pohdinta, miten saan tämän kaiken skriptiin.
+
+Ensi töikseni menin muokkailemaan skriptiä, että nyt sivu ei avaudukaan uudella komennolla, vaan että asetukset on jo valmiiksi ladatussa selaimessa.
+
+Fiksuna tyttönä tajusin kopioida konfigurointitiedoston samaan paikkaan (/usr/local/bin), jossa skripti myöskin on. Nyt luodaan vielä init.sls tiedosto. 
 
 
 
